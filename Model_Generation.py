@@ -20,7 +20,7 @@ import os
 import datetime
 
 current_time = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-directory = f"C:\\Users\\arora\\OneDrive\\Desktop\\BDM Capstone\\{current_time}_Models"
+directory = f"{current_time}_Models" # Model Path
 
 if not os.path.exists(directory):
     os.makedirs(directory)
