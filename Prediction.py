@@ -7,8 +7,8 @@ import logging
 import sys
 from Discount_mapping import create_discount_mapping
 
-path = 'Final 2024-11-10_13-41-46_Models'
-directory = f"C:\\Users\\arora\\OneDrive\\Desktop\\BDM Capstone\\{path}"
+path = '' # Model Path
+directory = f"{path}" 
 
 if not os.path.exists(directory):
     raise Exception(f"Directory {path} not found")
