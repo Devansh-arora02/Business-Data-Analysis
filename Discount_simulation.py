@@ -4,7 +4,7 @@ import logging
 import os
 import sys
 
-directory = r"C:\\Users\\arora\\OneDrive\\Desktop\\BDM Capstone\\Final 2024-11-10_13-41-46_Models"
+directory = r"" # Model Path
 
 if not os.path.exists(directory):
     raise Exception(f"Directory not found")
