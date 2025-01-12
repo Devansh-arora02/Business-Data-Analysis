@@ -10,7 +10,9 @@ You can understand the flow of the project through this [presentation](https://e
 - Virtual Studio Code
 # Learnings
 - The approach to handing differenrt kinds of variables.
+- Handling different kinds of anomalies in the data.
 - Choosing the right statistical tools for analysis.
 - Utilizing a agnetic approach towards analysis, judging the further steps using inferences from the previous steps.
+- Generating suitable ML models with relevant feature engineering.
 # Acknowledgement
 I thank IIT Madras for providing me the opportunity to indulge myself in this realm of using statistical tools to solve real world problems. I also extend my heartfelt gratitude to Inifinity Technologies for providing the data for this project. 
