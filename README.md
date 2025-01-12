@@ -1,6 +1,6 @@
 # Business Data Analysis
 This capstone proejct was aimed at getting a field-work experience for the role of a Data Scientist. It included collecting, pre-processing and analyzing data for generating insightful results and further enhacing business strategies. It was a ride from fundamental descriptive analysis all the way upto generating ML models.
-You can understand the flow of the project through this [Presentation](https://expanding-customer-base--hxzavct.gamma.site) which includes all the major insights and details on techniques used to derive those insights. A full fledged explanation of the project can be found in this [report](https://github.com/Devansh-arora02/Business-Data-Analysis/blob/main/Analysis%20Result.pdf).
+You can understand the flow of the project through this [presentation](https://expanding-customer-base--hxzavct.gamma.site) which includes all the major insights and details on techniques used to derive those insights. A full fledged explanation of the project can be found in this [report](https://github.com/Devansh-arora02/Business-Data-Analysis/blob/main/Analysis%20Result.pdf).
 # Tools utilized
 - Python programming langauge and it's various libraries like Scikit-Learn, Numpy, Pandas, Seaborn and Matplotlib
 - Excel for basic analysis using Pivot Tables and Graphs
