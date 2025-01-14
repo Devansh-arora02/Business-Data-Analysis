@@ -14,8 +14,6 @@ This repository contains the code, data, and analysis performed for the Business
 4. [Key Findings](#key-findings)
 5. [Recommendations](#recommendations)
 6. [How to Use](#how-to-use)
-7. [Limitations](#limitations)
-8. [Acknowledgments](#acknowledgments)
 
 ---
 
