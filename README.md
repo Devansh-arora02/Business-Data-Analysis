@@ -1,18 +1,95 @@
-# Business Data Analysis
-This capstone proejct was aimed at getting a field-work experience for the role of a Data Scientist. It included collecting, pre-processing and analyzing data for generating insightful results and further enhacing business strategies. It was a ride from fundamental descriptive analysis all the way upto generating ML models.
-You can understand the flow of the project through this [presentation](https://expanding-customer-base--hxzavct.gamma.site) which includes all the major insights and details on techniques used to derive those insights. A full fledged explanation of the project can be found in this [report](https://github.com/Devansh-arora02/Business-Data-Analysis/blob/main/Analysis%20Result.pdf).
-# Tools utilized
-- Python programming langauge and it's various libraries like Scikit-Learn, Numpy, Pandas, Seaborn and Matplotlib
-- Excel for basic analysis using Pivot Tables and Graphs
-- Flourish for data visualization
-- Large Language Models (like ChatGPT) as a virtual assisstant
-- Google Colab Notebook
-- Virtual Studio Code
-# Learnings
-- The approach to handing differenrt kinds of variables.
-- Handling different kinds of anomalies in the data.
-- Choosing the right statistical tools for analysis.
-- Utilizing a agnetic approach towards analysis, judging the further steps using inferences from the previous steps.
-- Generating suitable ML models with relevant feature engineering.
-# Acknowledgement
-I thank IIT Madras for providing me the opportunity to indulge myself in this realm of using statistical tools to solve real world problems. I also extend my heartfelt gratitude to Inifinity Technologies for providing the data for this project. 
+# Expanding Customer Base for an Electronics Retail Store
+
+[![PDF Report](https://img.shields.io/badge/View-PDF_Report-blue)](link_to_your_pdf_report)
+
+This repository contains the code, data, and analysis performed for the Business Data Management (BDM) capstone project aimed at expanding the customer base of **Infinity Technologies**, an HP-authorized electronics retail chain. The project involves analyzing sales data, identifying trends, segmenting customers, and proposing actionable strategies to improve customer engagement and sales.
+
+---
+
+## Table of Contents
+
+1. [Project Overview](#project-overview)
+2. [Data Details](#data-details)
+3. [Analysis and Models](#analysis-and-models)
+4. [Key Findings](#key-findings)
+5. [Recommendations](#recommendations)
+6. [How to Use](#how-to-use)
+7. [Limitations](#limitations)
+8. [Acknowledgments](#acknowledgments)
+
+---
+
+## Project Overview
+
+Infinity Technologies, operating in both B2B and B2C channels in Delhi, faced challenges due to shifting customer preferences toward online platforms and large format retailers. This project aimed to:
+- Analyze sales data.
+- Identify customer segments based on loyalty.
+- Develop optimized discount strategies.
+- Provide actionable recommendations for sales growth.
+
+---
+
+## Data Details
+
+### Dataset
+- **Source**: Infinity Technologies' sales transactions over one year.
+- **Format**: CSV
+- **Size**: 4,474 records and 139 parameters
+- **Key Features**:
+  - Transaction details (date, time, quantity, etc.)
+  - Product-specific information
+  - Customer-specific metrics (e.g., loyalty, longevity)
+
+### Preprocessing
+- **Handling Missing Values**: Imputation with zeros, means, or modes.
+- **Outlier Detection**: Interquartile Range (IQR) method.
+- **Transformations**: Normalization and one-hot encoding for modeling.
+
+---
+
+## Analysis and Models
+
+### 1. Data Analysis
+- **Pareto Analysis**: Identified high-performing product groups.
+- **Sales Trend Analysis**: Peak sales during evening hours (6–8 PM).
+
+### 2. Customer Segmentation
+- **Method**: K-Means Clustering (k=3).
+- **Features**: Visits, profit contribution, longevity, and customer type.
+- **Output**: Loyalty segments (Platinum, Gold, Silver).
+
+### 3. Predictive Discounting
+- **Model**: Random Forest Regression.
+- **Optimization**: GridSearchCV for hyperparameters.
+- **Evaluation**: RMSE and R² metrics.
+- **Insights**: Optimal discounts to maximize profit.
+
+---
+
+## Key Findings
+
+- **Sales Trends**: High foot traffic in the evening.
+- **Product Insights**:
+  - Retail Notebooks lead in sales and profit.
+  - Consumer Volume Desktop products show potential for growth.
+- **Discount Impacts**: High-MRP products are less sensitive to large discounts.
+
+---
+
+## Recommendations
+
+1. **Human Resource Management**: Optimize workforce deployment during peak hours.
+2. **Customer Loyalty**:
+   - Assign points based on frequency, profit contribution, and longevity.
+   - Offer tiered discounts for Platinum, Gold, and Silver groups.
+3. **Discount Strategy**:
+   - Free giveaways for high-value purchases.
+   - Avoid discounting high-performing products unnecessarily.
+
+---
+
+## How to Use
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-repo-link
