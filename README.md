@@ -1,6 +1,6 @@
 # Expanding Customer Base for an Electronics Retail Store
 
-[![PDF Report](https://img.shields.io/badge/View-PDF_Report-blue)](link_to_your_pdf_report)
+[![PDF Report](https://img.shields.io/badge/View-PDF_Report-blue)](https://github.com/Devansh-arora02/Business-Data-Analysis/blob/main/Analysis%20Result.pdf)
 
 This repository contains the code, data, and analysis performed for the Business Data Management (BDM) capstone project aimed at expanding the customer base of **Infinity Technologies**, an HP-authorized electronics retail chain. The project involves analyzing sales data, identifying trends, segmenting customers, and proposing actionable strategies to improve customer engagement and sales.
 
