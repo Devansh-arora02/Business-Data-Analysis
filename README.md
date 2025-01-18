@@ -13,7 +13,6 @@ This repository contains the code, data, and analysis performed for the Business
 3. [Analysis and Models](#analysis-and-models)
 4. [Key Findings](#key-findings)
 5. [Recommendations](#recommendations)
-6. [How to Use](#how-to-use)
 
 ---
 
@@ -83,11 +82,3 @@ Infinity Technologies, operating in both B2B and B2C channels in Delhi, faced ch
 3. **Discount Strategy**:
    - Free giveaways for high-value purchases.
    - Avoid discounting high-performing products unnecessarily.
-
----
-
-## How to Use
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-repo-link
